@@ -31,4 +31,14 @@ public class Fish implements Animal {
     public String getType() {
         return TYPE;
     }
+
+    @Override
+    public boolean canFly() {
+        return true;
+    }
+
+    @Override
+    public boolean canSwim() {
+        return false;
+    }
 }

@@ -32,4 +32,13 @@ public class Mammal implements Animal {
             return TYPE;
         }
 
+    @Override
+    public boolean canFly() {
+        return false;
     }
+
+    @Override
+    public boolean canSwim() {
+        return false;
+    }
+}

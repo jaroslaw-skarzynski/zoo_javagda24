@@ -31,4 +31,14 @@ public class Bird implements Animal {
     public String getType() {
         return TYPE;
     }
+
+    @Override
+    public boolean canFly() {
+        return false;
+    }
+
+    @Override
+    public boolean canSwim() {
+        return true;
+    }
 }

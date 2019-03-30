@@ -10,4 +10,8 @@ public interface Animal {
     String getSpecies();
 
     public String getType();
+
+    boolean canFly();
+
+    boolean canSwim();
 }
