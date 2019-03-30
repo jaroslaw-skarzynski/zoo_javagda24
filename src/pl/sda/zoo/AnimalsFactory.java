@@ -1,6 +1,8 @@
 package pl.sda.zoo;
 
 import pl.sda.zoo.animals.Animal;
+import pl.sda.zoo.animals.Bird;
+import pl.sda.zoo.animals.Fish;
 import pl.sda.zoo.animals.Mammal;
 
 import java.util.ArrayList;
@@ -13,6 +15,8 @@ public class AnimalsFactory {
         animals.add(new Mammal("Leo", "Whrrroaaa", "Lion"));
         animals.add(new Mammal("Jurek", "Whiii", "Elephant"));
         animals.add(new Mammal("Edek", "rrrr", "Hedgehog"));
+        animals.add(new Bird ("Kelly", "ćwirrr", "Dove"));
+        animals.add(new Bird("Fiona", "ćwiiii", "Duck"));
 
         return animals;
     }
