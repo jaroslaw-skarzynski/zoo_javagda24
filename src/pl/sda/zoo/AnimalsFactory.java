@@ -14,6 +14,7 @@ public class AnimalsFactory {
         animals.add(new Mammal("Jurek", "Whiii", "Elephant"));
         animals.add(new Mammal("Zenon", "Wrrrr", "Pig"));
         animals.add(new Mammal("Wacek", "Grrrr", "Dog"));
+        animals.add(new Mammal("Wacek2", "Grrrr", "Dog"));
 
         return animals;
     }
