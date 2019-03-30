@@ -13,6 +13,7 @@ public class AnimalsFactory {
         animals.add(new Mammal("Leo", "Whrrroaaa", "Lion"));
         animals.add(new Mammal("Jurek", "Whiii", "Elephant"));
         animals.add(new Mammal("Adam", "Wrrr", "Elephant"));
+        animals.add(new Mammal("Adam2", "Wrrr", "Elephant"));
 
         return animals;
     }
