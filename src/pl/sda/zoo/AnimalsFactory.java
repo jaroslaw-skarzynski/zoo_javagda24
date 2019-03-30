@@ -23,6 +23,7 @@ public class AnimalsFactory {
         animals.add(new Mammal("Konstanty", "miau", "Cat"));
         animals.add(new Bird("ćwirek", "ćwir ćwir", "Sparrow"));
         animals.add(new Bird("bociek", "kle kle", "Stork"));
+        animals.add(new Bird("Ziomek", "huhu huhu", "Sowa"));
 
 
         return animals;
