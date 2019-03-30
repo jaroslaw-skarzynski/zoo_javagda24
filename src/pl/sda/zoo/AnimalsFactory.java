@@ -17,6 +17,8 @@ public class AnimalsFactory {
         animals.add(new Mammal("Chian Ho", "Omnomnom", "Panda"));
         animals.add(new Fish("Nemo", "bulbul", "Błazenek"));
         animals.add(new Fish("Sebastian", "ruururu", "Dolphin"));
+        animals.add(new Fish("Rekin", "arr", "Shark"));
+
 
         return animals;
     }
