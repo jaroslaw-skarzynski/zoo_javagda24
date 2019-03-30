@@ -24,6 +24,9 @@ public class AnimalsFactory {
         animals.add(new Bird("ćwirek", "ćwir ćwir", "Sparrow"));
         animals.add(new Bird("bociek", "kle kle", "Stork"));
 
+        System.out.println("Can first animal fly? " + animals.get(0).canFly());
+        System.out.println("Can second animal fly? " + animals.get(1).canFly());
+
 
         return animals;
     }
