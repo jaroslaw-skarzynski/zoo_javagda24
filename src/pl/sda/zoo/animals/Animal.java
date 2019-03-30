@@ -1,5 +1,7 @@
 package pl.sda.zoo.animals;
 
+import java.util.Currency;
+
 public interface Animal {
     String getName();
 
@@ -7,5 +9,5 @@ public interface Animal {
 
     String getSpecies();
 
-    String getType();
+    public String getType();
 }
