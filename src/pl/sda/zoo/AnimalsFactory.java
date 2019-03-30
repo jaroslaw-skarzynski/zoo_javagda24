@@ -2,6 +2,7 @@ package pl.sda.zoo;
 
 import pl.sda.zoo.animals.Animal;
 import pl.sda.zoo.animals.Bird;
+import pl.sda.zoo.animals.Mammal;
 
 import java.util.ArrayList;
 import java.util.List;
