@@ -1,12 +1,12 @@
 package pl.sda.zoo.animals;
 
-public class Mammal implements Animal {
-    private static final String TYPE = "Mammal";
+public class Bird implements Animal {
+    private static final String TYPE = "Bird";
     private String name;
     private String noise;
     private String species;
 
-    public Mammal(String name, String noise, String species) {
+    public Bird(String name, String noise, String species) {
         this.name = name;
         this.noise = noise;
         this.species = species;
