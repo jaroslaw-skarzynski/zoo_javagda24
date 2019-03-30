@@ -10,6 +10,7 @@ public class ZooKeeper {
         for (Animal animal : animals) {
             String message = String.format("%s[%s] of name: %s says: %s", animal.getSpecies(), animal.getType(), animal.getName(), animal.makeNoise());
             System.out.println(message);
+            System.out.println("Hello");
         }
     }
 }
