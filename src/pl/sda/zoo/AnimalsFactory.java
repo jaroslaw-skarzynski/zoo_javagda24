@@ -27,6 +27,7 @@ public class AnimalsFactory {
 
         System.out.println("Can first animal fly? " + animals.get(0).canFly());
         System.out.println("Can second animal fly? " + animals.get(1).canFly());
+        System.out.println("no they cant");
 
 
         return animals;
